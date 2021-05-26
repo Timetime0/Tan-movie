@@ -9,7 +9,7 @@ export const NavLinks = styled(NavLink)`
     transition: all 0.5s;
     &:hover{
         text-decoration: none;
-        color:${props=>props.theme.hovorColorLinkPrimary};
+        color:${props=>props.theme.btnPrimaryColor};
     }
 `
 
@@ -24,6 +24,9 @@ export const Link = styled.a`
     transition: all 0.5s;
     &:hover{
         text-decoration: none;
-        color:${props=>props.theme.hovorColorLinkPrimary};
+        color:${props=>props.theme.btnPrimaryColor};
+    }
+    @media screen and (max-width:687px){
+        font-size: 43px;
     }
 `
