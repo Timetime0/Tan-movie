@@ -16,9 +16,6 @@ export function * rootSaga(){
         dataPhimSaga.theoDoiActionUpdateImgDataPhimApi(),
         dataPhimSaga.theoDoiActionAddImgPhimApi(),
 
-
-
-
         dataRapPhimSaga.theoDoiAcTionGetDataRapPhimApi(),
         dataRapPhimSaga.theoDoiActionGetDataCumRapPhimApi(),
         
